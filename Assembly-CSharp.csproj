@@ -56,11 +56,12 @@
     <Compile Include="Assets\48 Particle Effect Pack\Script\csShowAllEffect.cs" />
     <Compile Include="Assets\48 Particle Effect Pack\Script\csMouseOrbit.cs" />
     <Compile Include="Assets\ParticleEffectsController.cs" />
+    <Compile Include="Assets\CameraRotation.cs" />
     <Compile Include="Assets\48 Particle Effect Pack\Script\csParticleMove.cs" />
     <Compile Include="Assets\48 Particle Effect Pack\Script\csDestroyEffect.cs" />
     <Compile Include="Assets\48 Particle Effect Pack\Script\csParticleEffectPackLightControl.cs" />
-    <Compile Include="Assets\SciFiWarriorPBRHPPolyart\Prefabs\PlayerMovement.cs" />
-    <Compile Include="Assets\CameraRotation.cs" />
+    <Compile Include="Assets\PlayerMovement.cs" />
+    <Compile Include="Assets\BulletMovement.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

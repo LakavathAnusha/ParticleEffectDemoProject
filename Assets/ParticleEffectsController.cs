@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class ParticleEffectsController : MonoBehaviour
 {
-    ParticleSystem particleSystem;
+    public ParticleSystem particle;
     // Start is called before the first frame update
     void Start()
     {
-        particleSystem = GetComponent<ParticleSystem>();
+        particle = GetComponent<ParticleSystem>();
         //particleSystem.Play();
 
     }
@@ -18,11 +18,11 @@ public class ParticleEffectsController : MonoBehaviour
     {
      if(Input.GetKeyDown(KeyCode.Space))
         {
-            particleSystem.Play();
+            particle.Play();
         }
      if(Input.GetKeyDown(KeyCode.Z))
         {
-            particleSystem.Stop();
+            particle.Stop();
         }
     }
    
